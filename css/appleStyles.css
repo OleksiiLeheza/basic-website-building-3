@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  border-radius: 10px;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+.body {
+  background: #fafafa;
+}
+
+#header,
+#footer {
+  width: 100%;
+  height: 90px;
+  background: #333;
+  color: #fafafa;
+  text-align: center;
+  font-size: xx-large;
+  border-bottom: 4px solid silver;
+  line-height: 90px;
+  margin-bottom: 50px;
+}
+
+#footer {
+  margin-top: 50px;
+  border-bottom: 0;
+  border-top: 4px solid silver;
+  height: 100px;
+  line-height: 100px;
+  margin-bottom: 0;
+  float: left;
+}
+
+.nav {
+  margin-top: 20px;
+  list-style: none;
+  text-align: center;
+  padding: 20px 2.5%;
+  background: rgb(231, 231, 231);
+  border: 1px solid #333;
+  font-size: x-large;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav :hover {
+  color: #fff;
+  background: #333;
+  border-radius: 5px;
+  border-color: #333;
+}
+
+.main { 
+  padding: 15px 2.5%;
+  max-width: 45%;
+  background: #e7e7e7;
+  margin-top: 10px;
+  margin-left: 3%;
+  font-size: larger;
+  border: 1px solid #333;
+  border-radius: 5px; 
+  float: left;
+}
+
+.main li {
+  margin-bottom: 10px;
+}
+
+.left_aside {
+  margin-left: 5%;
+  max-width: 10%;
+  padding: 20px 2.5%;
+  font-size: x-large;
+  text-align: center;
+  float: left;
+}
+
+.right_aside {
+  margin-right: 5%;
+  margin-left: 5%;
+  max-width: 12%;
+  padding: 20px 2.5%;
+  text-align: center;
+  float: left;
+}
+
+.image {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  background: #f8f9fa;
+  padding: 15px 2.5%;
+  border: 1px solid #333;
+}
+
+.menu {
+  text-decoration: none;
+  display: inline-block;
+  font-size: x-large;
+  padding: 12px 20px;
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.menu:hover {
+  background-color: #ddd;
+  color: black;
+}
+.round {
+  border-radius: 5%;
+}
+
+#apple_header {
+  margin-top: 15px;
+  width: 60px;
+}
+
+#apple_footer {
+  margin-top: 10px;
+  width: 100px;
+}
+
+@media screen and (max-width: 576px) {
+  .left_aside { 
+    min-width: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px 2.5%;
+    font-size: x-large;
+    text-align: center; 
+    margin-bottom: 10px;
+    float: none;
+  }
+
+  .main { 
+    max-width: none;
+    float: none;
+    padding: 20px 5%;
+    background: #e7e7e7;
+    margin-top: 20px;
+    margin-left: 10%; 
+    margin-right: 10%;
+    font-size: larger;
+    border: 1px solid #333;
+    border-radius: 5px;
+    position: relative;
+  } 
+
+.nav {
+    margin-top: 5px;
+    list-style: none;
+    text-align: center;
+    padding: 20px 2.5%;
+    background: rgb(231, 231, 231);
+    border: 1px solid #333;
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.right_aside {
+    margin-right: 10%;
+    margin-left: 10%;
+    max-width: none; 
+    padding: 10px 5%;
+    text-align: center;
+    float: left;
+}
+
+  #header, #footer {
+    width: 100%;
+    height: 70px;
+    background: #333;
+    color: #fafafa;
+    text-align: center;
+    font-size: xx-large;
+    border-bottom: 4px solid silver;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+#apple_header {
+    margin-top: 5px;
+    max-width: 60px;
+}
+}
+ 
+
+
