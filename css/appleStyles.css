@@ -96,6 +96,14 @@ a:active {
   float: left;
 }
 
+.image_map{
+  position: relative;
+}
+.image_map a{
+  display: block;      
+  position: absolute;
+}
+
 .image {
   margin-top: 20px;
   border-radius: 5px;
